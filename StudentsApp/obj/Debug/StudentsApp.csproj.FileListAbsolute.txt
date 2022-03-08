@@ -133,10 +133,11 @@ C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\bin\Antlr3.Runtime.
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.csprojAssemblyReference.cache
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.Migrations.AddStudentCourse.resources
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.csproj.GenerateResource.cache
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.csproj.CoreCompileInputs.cache
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.csproj.CopyComplete
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.dll
 C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\obj\Debug\StudentsApp.pdb
+C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\bin\IronXL.dll
+C:\Users\AphiweTywabi\source\repos\StudentAppRep\StudentsApp\bin\IronXL.xml

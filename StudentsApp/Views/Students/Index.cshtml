@@ -4,11 +4,12 @@
     ViewBag.Title = "Students";
 }
 
-<h2>Index</h2>
+<h2>Students</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
-
+    <br />
+    <br />
     <a href="@Url.Action("UploadFile", "Upload",new {  })">Upload CSV file</a>
 </p>
 <table class="table">

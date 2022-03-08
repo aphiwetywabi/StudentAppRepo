@@ -51,9 +51,6 @@ namespace StudentsApp.Controllers
             return View();
         }
 
-        // POST: Students/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create([Bind(Include = "StudentID,StudentNumber,FirstName,LastName")] Student student)
@@ -68,7 +65,6 @@ namespace StudentsApp.Controllers
             return View(student);
         }
 
-        // GET: Students/Edit/5
         public async Task<ActionResult> Edit(int? id)
         {
             if (id == null)
@@ -83,9 +79,6 @@ namespace StudentsApp.Controllers
             return View(student);
         }
 
-        // POST: Students/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit([Bind(Include = "StudentID,StudentNumber,FirstName,LastName")] Student student)
