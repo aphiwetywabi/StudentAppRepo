@@ -1,0 +1,78 @@
+﻿@model StudentsApp.Models.Student
+@using System.Web.Mvc.Html;
+
+@{
+
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.StudentID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
+<dd>
+    @Html.DisplayFor(model => model.Courses)
+</dd>
+<dt>
+    @Html.DisplayNameFor(model => model.Courses)
+</dt>
+<dd>
+
+    <a href="@Url.Action("Create", "Courses",new { id=Model.StudentID })">Add Student course</a>
+    
+    <table class="table">
+        <tr>
+            <th>Course Code</th>
+            <th> Course Description</th>
+            <th>Grade</th>
+        </tr>
+        @foreach (var items in Model.Courses)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelitems => items.CourseCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(mdoelitems => items.CourseDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(mdoelitems => items.Grade)
+                </td>
+            </tr>
+        }
+    </table>
+</dd> 
